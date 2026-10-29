@@ -13,10 +13,10 @@ const int SIM800_RX = 34;
 const int SIM800_TX = 23;
 const i2s_port_t I2S_PORT = I2S_NUM_0;
 
-const char* WIFI_SSID = "YOUR_WIFI_SSID";
-const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
-const char* DATA_UPLOAD_URL = "https://smart-classroom-87fd.onrender.com/api/data";
-const char* API_KEY = "YOUR_API_KEY";
+const char* WIFI_SSID = "vivo t4x 5g";
+const char* WIFI_PASSWORD = "Kunal@29k";
+const char* DATA_UPLOAD_URL = "https://smart-classroom-ejnn.onrender.com/api/data";
+const char* API_KEY = "C3D474FD2CEEB7304A84CFE496B5A84BD3678459D2C3A074E8ADFACC0413609B";
 const char PHONE_NUMBER[] = "+91XXXXXXXXXX";
 const long NOISE_THRESHOLD = 1200; // Raw INMP441 amplitude; tune after reading Serial output.
 const unsigned long MONITOR_INTERVAL_MS = 1000;

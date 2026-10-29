@@ -27,12 +27,12 @@
 #define CAM_HREF  23
 #define CAM_PCLK  22
 
-const char* WIFI_SSID = "YOUR_WIFI_SSID";
-const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
-const char* PHOTO_UPLOAD_URL = "https://YOUR-BACKEND-NAME.onrender.com/api/photos";
-const char* API_KEY = "YOUR_API_KEY";
+const char* WIFI_SSID = "vivo t4x 5g";
+const char* WIFI_PASSWORD = "Kunal@";
+const char* PHOTO_UPLOAD_URL = "https://smart-classroom-ejnn.onrender.com/api/photos";
+const char* API_KEY = "C3D474FD2CEEB7304A84CFE496B5A84BD3678459D2C3A074E8ADFACC0413609B";
 
-const unsigned long PHOTO_INTERVAL_MS = 5UL * 60UL * 1000UL;
+const unsigned long PHOTO_INTERVAL_MS = 30UL * 1000UL;
 const unsigned long PHOTO_RETRY_MS = 60000;
 const unsigned long WIFI_RETRY_MS = 10000;
 const size_t MAX_PHOTO_BYTES = 1024 * 1024;
@@ -69,7 +69,7 @@ bool initializeCamera()
 	config.pin_href = CAM_HREF;
 	config.pin_pclk = CAM_PCLK;
 	config.xclk_freq_hz = 20000000;
-	config.ledc_timer = LEDC_TIMER_0;
+	config.ledc_timer = LEDC_timer_t
 	config.ledc_channel = LEDC_CHANNEL_0;
 	config.pixel_format = PIXFORMAT_JPEG;
 	config.frame_size = psramFound() ? FRAMESIZE_VGA : FRAMESIZE_QVGA;
